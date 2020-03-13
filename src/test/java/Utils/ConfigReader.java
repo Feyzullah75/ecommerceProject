@@ -13,6 +13,7 @@ public class ConfigReader {
         // test 45
         // pull first, then commit , after commit push your code to remote repository
         // create pull request to merge master branch.
+        // Updated by asel branch
         String path="configration.properties";
         try {
             FileInputStream input = new FileInputStream(path);
