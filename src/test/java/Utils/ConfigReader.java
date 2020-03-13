@@ -8,7 +8,9 @@ public class ConfigReader {
 
     private static Properties configFile;
     static {
-        // updated from mac computer
+
+        // This is for github testing
+        // test 45
         String path="configration.properties";
         try {
             FileInputStream input = new FileInputStream(path);
