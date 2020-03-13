@@ -10,7 +10,7 @@ public class ConfigReader {
     static {
 
         // This is for github testing
-        // test2
+        // test 45
         String path="configration.properties";
         try {
             FileInputStream input = new FileInputStream(path);
