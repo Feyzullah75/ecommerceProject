@@ -8,6 +8,7 @@ public class ConfigReader {
 
     private static Properties configFile;
     static {
+        // updated from mac computer
         String path="configration.properties";
         try {
             FileInputStream input = new FileInputStream(path);
