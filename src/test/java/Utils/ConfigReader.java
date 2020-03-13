@@ -8,10 +8,11 @@ public class ConfigReader {
 
     private static Properties configFile;
     static {
+        
+        // This is for github testing
         String path="configration.properties";
         try {
             FileInputStream input = new FileInputStream(path);
-            
             configFile=new Properties();
             configFile.load(input);
             input.close();
