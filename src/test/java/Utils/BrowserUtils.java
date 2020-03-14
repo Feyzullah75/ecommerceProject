@@ -98,8 +98,8 @@ public class BrowserUtils {
     }
 
     /*
-    Create the method will take one parameter as a list of weblements
-    This method will return list of String from webelements
+    Create the method will take one parameter as a list of webElements
+    This method will return list of String from webElements
      */
 
     public static List<String> getTextList(List<WebElement> elements){
