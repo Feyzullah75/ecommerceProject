@@ -29,6 +29,16 @@ public class BrowserUtils {
             }
         }
     }
+
+    public static void switchWindow(WebDriver driver){
+        Set<String> windowHandles = driver.getWindowHandles();
+        for (String handle :
+                windowHandles) {
+            if (!handle.equals(driver.getWindowHandle())) {
+                driver.switchTo().window(handle);
+            }
+        }
+    }
     public static void verifyBrokenLink( List<WebElement> links){
         for(WebElement link : links ){
             String hrefValue=link.getAttribute("href");
