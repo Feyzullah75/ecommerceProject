@@ -22,4 +22,13 @@ Feature:Ecommerce Practice
     * The user click register button
 
 
+    Scenario:Automation practice login negative testing
+
+    Then the user validate text "Invalid Login or Password"
+    | adkfjkdf@gmail | kdjfajf;df|
+    Then the user click sign in button
+
+
+
+
 

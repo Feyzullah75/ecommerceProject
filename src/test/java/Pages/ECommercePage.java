@@ -66,6 +66,14 @@ public class ECommercePage {
     @FindBy(xpath = "//button[@name='submitAccount']")
     public WebElement registerButton;
 
+    @FindBy(xpath = "//input[@id='email']")
+    public WebElement emailField;
+
+    @FindBy(xpath = "//input[@id='passwd']")
+    public WebElement passwordField;
+
+    @FindBy(xpath = "//input[@id='passwd']")
+    public WebElement signInBtn;
 
 
 
