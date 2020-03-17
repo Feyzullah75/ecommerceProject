@@ -18,6 +18,7 @@ public class Hook {
   @Before
   public void setUpDriver(){
     driver= Driver.getDriver();
+    driver.manage().window().fullscreen();
     driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
   }

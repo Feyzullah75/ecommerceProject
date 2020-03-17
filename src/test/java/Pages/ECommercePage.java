@@ -66,14 +66,28 @@ public class ECommercePage {
     @FindBy(xpath = "//button[@name='submitAccount']")
     public WebElement registerButton;
 
+    @FindBy(xpath = "//a[@class='logout']")
+    public WebElement signOutBtn;
+
     @FindBy(xpath = "//input[@id='email']")
     public WebElement emailField;
 
     @FindBy(xpath = "//input[@id='passwd']")
     public WebElement passwordField;
 
-    @FindBy(xpath = "//input[@id='passwd']")
+    @FindBy(xpath = "(//div[@class='alert alert-danger'])[1]")
+    public WebElement error;
+
+    @FindBy(xpath = "//button[@id='SubmitLogin']")
+    public WebElement loginButton;
+
+    @FindBy(xpath = "//a[@class='login']")
     public WebElement signInBtn;
+
+
+
+    @FindBy(xpath ="//a[@class='account']")
+    public WebElement header;
 
 
 
